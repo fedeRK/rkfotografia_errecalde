@@ -109,19 +109,6 @@ main{
     font-size: 1.5em;
 }
 
-.carousel-lateral img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.carousel{
-    display: flex;
-    width: 100vw;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-}
 
 /*          CONTACTO             */
 
@@ -259,10 +246,7 @@ padding-top: 20px;
 /*          Media Querry            */
 
 @media screen and (max-width: 767px) {
-    .carousel{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     label {
         display: block;
         cursor: pointer;
