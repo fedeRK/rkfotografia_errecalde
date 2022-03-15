@@ -73,6 +73,20 @@ $fontsize:(
         font-weight: bold;
     }
 }
+
+/*MAP-GET*/
+$estilo-remeras: (
+    color1: rgb(187, 187, 187),
+    color2: rgba(58, 58, 58, 0.527),
+    fuente: "helvetica",
+);
+
+.remeras{
+    color: map-get($estilo-remeras, color1);
+    background-color: map-get($estilo-remeras, color2);
+    font-family: map-get($estilo-remeras, fuente );
+}
+
 .tienda {
     text-align: justify;
     padding: 0 50px;
@@ -93,13 +107,19 @@ $fontsize:(
     margin-left: 50px;
 }
 
-/*EACH*/
+/*EXTEND*/
 .linkTexto {
     @extend .fuente_texto;
     color: $fuente_primario;
     &:hover{
         color: #094;
     }
+}
+
+.fuente_titulo2 {
+    @extend .fuente_titulos;
+    padding-left: 50px;
+    font-weight: 100;
 }
 /*MIXIN*/
 @mixin fotolink($width, $pad-top, $mar-left) {

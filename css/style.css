@@ -62,7 +62,7 @@ img:nth-child(6) {
 
 /*          TIENDA           */
 /*MAPA*/
-.fuente_titulos {
+.fuente_titulos, .fuente_titulo2 {
   font-size: 2rem;
   font-weight: bold; }
 
@@ -73,6 +73,12 @@ img:nth-child(6) {
 .fuente_texto, .linkTexto {
   font-size: 1rem;
   font-weight: bold; }
+
+/*MAP-GET*/
+.remeras {
+  color: #bbbbbb;
+  background-color: rgba(58, 58, 58, 0.527);
+  font-family: "helvetica"; }
 
 .tienda {
   text-align: justify;
@@ -88,11 +94,15 @@ img:nth-child(6) {
 .medidas {
   margin-left: 50px; }
 
-/*EACH*/
+/*EXTEND*/
 .linkTexto {
   color: #ffffff; }
   .linkTexto:hover {
     color: #094; }
+
+.fuente_titulo2 {
+  padding-left: 50px;
+  font-weight: 100; }
 
 /*MIXIN*/
 .cookie {
