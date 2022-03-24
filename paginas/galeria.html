@@ -51,6 +51,25 @@
 		<a href="../imagenes/academia.jpg"><img class="imganimate" src="../imagenes/academiaSmall.jpg" alt="Evento académico organizado en la ANAV"></a>
 		<a href="../imagenes/arana.jpg"><img class="imganimate" src="../imagenes/aranaSmall.jpg" alt="Fotografia macro de una araña lobo"></a>
 	</div>
+	<div class="grid-container">
+		<script type="text/javascript" src="object2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<div id="container" style="width:400px;height:300px;">
+		This content requires HTML5 &amp; Javascript or Adobe Flash Player Version 9 or higher.
+		</div>
+		<script type="text/javascript">	
+			// create the object player with the container
+			obj=new object2vrPlayer("container");
+			// add the skin object
+			skin=new object2vrSkin(obj);
+			// load the configuration
+			obj.readConfigUrl("corazon_completo_out.xml");
+			// hide the URL bar on the iPhone
+			setTimeout(function() { hideUrlBar(); }, 10);
+		</script>
+	</div>
     <!-- Footer -->
 
 	<footer class="footer py-4">
