@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
     <title>Galería | Fede RK Fotografía</title>
+	
 </head>
 <body>
 
@@ -47,56 +48,259 @@
     <!-- Main -->
 
 	<div class="fuente_titulo2"><h1>Galería de Imágenes</h1></div>
-	<div class="grid-container">
+	<div class="grid-container anatomia">
 		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#craneo">
 			<img src="../imagenes/anato360/craneo.JPG" alt="Craneo humano">
-		  </button>
-		  <div class="modal fade" id="craneo" tabindex="-1" role="dialog" aria-labelledby="tituloCraneo" aria-hidden="true">
+		</button>
+		<div class="modal fade" id="craneo" tabindex="-1" role="dialog" aria-labelledby="tituloCraneo" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 			  <div class="modal-content">
 				<div class="modal-header">
-				  <h5 class="modal-title" id="tituloCraneo">Craneo</h5>
+				  <h5 class="modal-title" id="tituloModal">Craneo</h5>
 				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				  </button>
 				</div>
 				<div class="modal-body">
-			
-					<div> <script type="text/javascript" src="object2vr_player.js">
-					</script>
-					<script type="text/javascript" src="skin.js">
-					</script>
-					<div id="container" style="width:399px;height:264px;">
-					This content requires HTML5 &amp; Javascript or Adobe Flash Player Version 9 or higher.
-					</div>
-					<script type="text/javascript">
-					
-						// create the object player with the container
-						obj=new object2vrPlayer("container");
-						// add the skin object
-						skin=new object2vrSkin(obj);
-						// load the configuration
-						obj.readConfigUrl("craneo_out.xml");
-						// hide the URL bar on the iPhone
-						setTimeout(function() { hideUrlBar(); }, 10);
-					</script>
-					</div>
-
+					<iframe class="anato360" src="./craneo/craneo.html" frameborder="0"></iframe>
 				</div>
 				<div class="modal-footer">
 				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
 				</div>
 			  </div>
 			</div>
-		  </div>
-			
-
-
-
-
-
-
-
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#cerebro">
+			<img src="../imagenes/anato360/cerebro.JPG" data-target="#cerebro">
+		</button>
+		<div class="modal fade" id="cerebro" tabindex="-1" role="dialog" aria-labelledby="tituloCraneo" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Cerebro</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./cerebro/Cerebro.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#snc">
+			<img src="../imagenes/anato360/snc.JPG" data-target="#snc">
+		</button>
+		<div class="modal fade" id="snc" tabindex="-1" role="dialog" aria-labelledby="tituloSnc" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Corte Antero Posterior SNC</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./snc/SNC3d.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#temporal">
+			<img src="../imagenes/anato360/temporal.JPG" data-target="#temporal">
+		</button>
+		<div class="modal fade" id="temporal" tabindex="-1" role="dialog" aria-labelledby="tituloTemporal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Hueso Temporal</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./temporal/temporal3d.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#troncoencefalo">
+			<img src="../imagenes/anato360/_MG_6595.jpg" data-target="#troncoencefalo">
+		</button>
+		<div class="modal fade" id="troncoencefalo" tabindex="-1" role="dialog" aria-labelledby="tituloTroncoEncefalo" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Tronco del Encéfalo</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./troncoEncefalo/troncoencefalo.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#laringe">
+			<img src="../imagenes/anato360/laringe.jpg" data-target="#laringe">
+		</button>
+		<div class="modal fade" id="laringe" tabindex="-1" role="dialog" aria-labelledby="tituloLaringe" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Laringe</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./laringe/laringe 3d.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#bronquios">
+			<img src="../imagenes/anato360/bronquios.jpg" data-target="#bronquios">
+		</button>
+		<div class="modal fade" id="bronquios" tabindex="-1" role="dialog" aria-labelledby="tituloBronquios" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Tronco Bronquial</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./bronquios/troncobronquial.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#corazon">
+			<img src="../imagenes/anato360/corazon.jpg" data-target="#corazon">
+		</button>
+		<div class="modal fade" id="corazon" tabindex="-1" role="dialog" aria-labelledby="tituloCorazon" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Corazón</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./corazon/corazon_completo.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#pulmon">
+			<img src="../imagenes/anato360/pulmon.jpg" data-target="#pulmon">
+		</button>
+		<div class="modal fade" id="pulmon" tabindex="-1" role="dialog" aria-labelledby="tituloPulmon" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Pulmon</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./pulmon/Pulmon.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#rinon">
+			<img src="../imagenes/anato360/rinon.jpg" data-target="#rinon">
+		</button>
+		<div class="modal fade" id="rinon" tabindex="-1" role="dialog" aria-labelledby="tituloRinon" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Rinon</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./rinon/rinon.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#bazo">
+			<img src="../imagenes/anato360/bazo.jpg" data-target="#bazo">
+		</button>
+		<div class="modal fade" id="bazo" tabindex="-1" role="dialog" aria-labelledby="tituloBazo" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Bazo</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./bazo/bazo3d.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<button type="button" class="bg-black" data-bs-toggle="modal" data-bs-target="#feto">
+			<img src="../imagenes/anato360/feto.jpg" data-target="#feto">
+		</button>
+		<div class="modal fade" id="feto" tabindex="-1" role="dialog" aria-labelledby="tituloFeto" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="tituloModal">Feto</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+					<iframe class="anato360" src="./feto/feto 3d.html" frameborder="0"></iframe>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			  </div>
+			</div>
+		</div>
 
 
 <!-- 			  <div class="col-12 col-sm-6 col-lg-3">

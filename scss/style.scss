@@ -209,4 +209,27 @@ $estilo-remeras: (
         margin: auto; 
     }
     }
-    
+
+/*     Anatomia 360 */
+.anatomia{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anato360 {
+    width: 100%;
+    height: 300px;
+}
+.modal-header {
+    background-color: $fondo_secundario;
+}
+.modal-body {
+    background-color: $fuente_remeras;
+}
+/* Páginas Object 2vr */
+.body360 {
+    background-color: $fuente_remeras;
+}
+.container360 {
+    margin: auto;
+    font-size: 14px;
+}
