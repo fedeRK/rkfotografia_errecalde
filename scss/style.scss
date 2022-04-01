@@ -209,8 +209,13 @@ $estilo-remeras: (
         margin: auto; 
     }
     }
+/*      Fotos 360       */
 
-/*     Anatomia 360 */
+.visitavirtual {
+    margin-top: 50px;
+}
+
+/*     Anatomia 360     */
 .anatomia{
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +255,3 @@ $estilo-remeras: (
 }
 
 
-.btn-image {
-    background-image: url('../imagenes/academia.jpg') !important;
-    background-size: cover;
-}

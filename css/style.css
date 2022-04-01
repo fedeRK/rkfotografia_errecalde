@@ -175,7 +175,11 @@ img:nth-child(6) {
     width: 60%;
     margin: auto; }
 
-/*     Anatomia 360 */
+/*      Fotos 360       */
+.visitavirtual {
+  margin-top: 50px; }
+
+/*     Anatomia 360     */
 .anatomia {
   display: flex;
   flex-wrap: wrap; }
@@ -211,7 +215,3 @@ img:nth-child(6) {
   width: 405px;
   padding: 0;
   padding-right: 5px; }
-
-.btn-image {
-  background-image: url("../imagenes/academia.jpg") !important;
-  background-size: cover; }
