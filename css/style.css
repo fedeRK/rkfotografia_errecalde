@@ -184,11 +184,19 @@ img:nth-child(6) {
   width: 100%;
   height: 300px; }
 
+.modal-content {
+  width: 407px;
+  padding: 0; }
+
 .modal-header {
-  background-color: #3a3a3a86; }
+  width: 405px;
+  background-color: #3a3a3a86;
+  padding: 5px; }
 
 .modal-body {
-  background-color: #bbbbbb; }
+  width: 405px;
+  background-color: #bbbbbb;
+  padding: 0; }
 
 /* Páginas Object 2vr */
 .body360 {
@@ -197,3 +205,13 @@ img:nth-child(6) {
 .container360 {
   margin: auto;
   font-size: 14px; }
+
+.modal-footer {
+  background-color: #3a3a3a86;
+  width: 405px;
+  padding: 0;
+  padding-right: 5px; }
+
+.btn-image {
+  background-image: url("../imagenes/academia.jpg") !important;
+  background-size: cover; }

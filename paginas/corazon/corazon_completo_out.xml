@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vrobject>
   <input states="4" windowheight="300" width="1080" imagepath="imagenes" preview="4" windowwidth="400" height="810" preload="1" columns="24" rows="3" fileextension="jpg"/>
-  <control simulatemass="1" lockedmouse="0" swapxy="0" lockedkeyboard="0" dblclickfullscreen="0" revx="0" invertwheel="1" revy="0" wrapx="1" wrapy="0" trapwheel="1" automovemode="1" lockedwheel="0" speedwheel="2.000" controller="1" sensitivity="10"/>
+  <control simulatemass="1" lockedmouse="0" swapxy="0" lockedkeyboard="0" dblclickfullscreen="1" revx="0" invertwheel="1" revy="0" wrapx="1" wrapy="0" trapwheel="1" automovemode="1" lockedwheel="0" speedwheel="2.000" controller="1" sensitivity="10"/>
   <view>
     <start row="0" column="0" state="0"/>
     <zoom default="1.000" centerx="0.00000" centery="0.00000" min="1" max="2.000"/>

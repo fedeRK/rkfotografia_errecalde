@@ -219,11 +219,20 @@ $estilo-remeras: (
     width: 100%;
     height: 300px;
 }
+.modal-content{
+    width: 407px;
+    padding:0;
+}
 .modal-header {
+    width: 405px;
     background-color: $fondo_secundario;
+    padding: 5px;
 }
 .modal-body {
+    width: 405px;
     background-color: $fuente_remeras;
+    padding: 0;
+
 }
 /* Páginas Object 2vr */
 .body360 {
@@ -232,4 +241,16 @@ $estilo-remeras: (
 .container360 {
     margin: auto;
     font-size: 14px;
+}
+.modal-footer{
+    background-color: $fondo_secundario;
+    width: 405px;
+    padding: 0;
+    padding-right: 5px;
+}
+
+
+.btn-image {
+    background-image: url('../imagenes/academia.jpg') !important;
+    background-size: cover;
 }
