@@ -212,7 +212,7 @@ $estilo-remeras: (
 /*      Fotos 360       */
 
 .visitavirtual {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 /*     Anatomia 360     */
@@ -254,4 +254,22 @@ $estilo-remeras: (
     padding-right: 5px;
 }
 
-
+.img360 {
+    position: relative;
+    display: inline-block;
+}
+.titulo360 {
+    position: absolute;
+    padding: 4.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: $fuente_remeras;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.493);
+    opacity: 0;
+        &:hover{
+            opacity: 100;
+            transition: all 0.2s ease-out;
+        }
+}
