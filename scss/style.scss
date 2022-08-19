@@ -162,6 +162,7 @@ $estilo-remeras: (
         flex: 1;
         text-align: center;
         padding: 30px;
+    }
     input {
         width: 100%;
         padding: 6px;
@@ -192,12 +193,20 @@ $estilo-remeras: (
         
     }
 }
+
 @media screen and (max-width: 700px) {
     .form-img{
         display: none;
     }
+    iframe {
+        width: 540px;
+        height: 282px;
+    }
+    .visitavirtual{
+        font-size: 1rem;
+    }
 }
-}
+
 .form-img {
         flex: 1;
         padding: 10px;
@@ -210,7 +219,11 @@ $estilo-remeras: (
     }
     }
 /*      Fotos 360       */
-
+.grid-container360{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
 .visitavirtual {
     margin-top: 10px;
 }
